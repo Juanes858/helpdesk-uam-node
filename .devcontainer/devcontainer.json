@@ -1,0 +1,13 @@
+{
+  "name": "HelpDesk UAM DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "vitest.explorer"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
